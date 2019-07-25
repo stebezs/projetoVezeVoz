@@ -13,7 +13,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
+and an assortment of pre-styled Elements. So, pretty much what you were expecting
 -- except, of course, for how it's put together, specifically:
 
 - It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.

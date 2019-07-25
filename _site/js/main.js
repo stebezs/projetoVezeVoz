@@ -47,7 +47,7 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// Prioritize "important" elements on medium.
+		// Prioritize "important" Elements on medium.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
 					'.important\\28 medium\\29',

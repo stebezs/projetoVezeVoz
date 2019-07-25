@@ -41,11 +41,11 @@
 	 */
 	$.fn.panel = function(userConfig) {
 
-		// No elements?
+		// No Elements?
 			if (this.length == 0)
 				return $this;
 
-		// Multiple elements?
+		// Multiple Elements?
 			if (this.length > 1) {
 
 				for (var i=0; i < this.length; i++)
@@ -306,11 +306,11 @@
 			if (typeof (document.createElement('input')).placeholder != 'undefined')
 				return $(this);
 
-		// No elements?
+		// No Elements?
 			if (this.length == 0)
 				return $this;
 
-		// Multiple elements?
+		// Multiple Elements?
 			if (this.length > 1) {
 
 				for (var i=0; i < this.length; i++)
@@ -519,20 +519,20 @@
 	};
 
 	/**
-	 * Moves elements to/from the first positions of their respective parents.
-	 * @param {jQuery} $elements Elements (or selector) to move.
-	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
+	 * Moves Elements to/from the first positions of their respective parents.
+	 * @param {jQuery} $Elements Elements (or selector) to move.
+	 * @param {bool} condition If true, moves Elements to the top. Otherwise, moves Elements back to their original locations.
 	 */
-	$.prioritize = function($elements, condition) {
+	$.prioritize = function($Elements, condition) {
 
 		var key = '__prioritize';
 
-		// Expand $elements if it's not already a jQuery object.
-			if (typeof $elements != 'jQuery')
-				$elements = $($elements);
+		// Expand $Elements if it's not already a jQuery object.
+			if (typeof $Elements != 'jQuery')
+				$Elements = $($Elements);
 
-		// Step through elements.
-			$elements.each(function() {
+		// Step through Elements.
+			$Elements.each(function() {
 
 				var	$e = $(this), $p,
 					$parent = $e.parent();
